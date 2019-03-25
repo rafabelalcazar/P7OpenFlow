@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Refresh" content="7">
+	<title>Flask Monitor</title>
+ <style>
+ .padre {
+  /* IMPORTANTE */
+  text-align: center;
+
+}
+
+.hijo {
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin: 10px;
+  
+  /* IMPORTANTE */
+  display: inline-block;
+}
+ </style>	
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row m-5">
+      <div class="col bg-info  btn text-white">
+        <h1>Simple Monitor Statics</h1>
+      </div>
+    </div>
+    <div class="row m-5">
+      <div class="col-12">
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">datapath</th>
+                  <th scope="col">in-port</th>
+                  <th scope="col">eth-dst</th>
+                  <th scope="col">out-port</th>
+                  <th scope="col">packets</th>
+                  <th scope="col">bytes</th>
+                </tr>
+              </thead>
+            </table>
+            <div class="card text-center bg-info text-white p-3">
+              <!-- <p>{{ l2}}</p> -->
+              <p>{{ l3 }}</p>
+              <p>{{ l4 }}</p>
+              <p>{{ l5 }}</p>
+              <p>{{ l6 }}</p>
+              <p>{{ l7 }}</p>
+              <p>{{ l8 }}</p>
+              <p>{{ l9 }}</p>
+            </div>
+
+      </div>      
+    </div>
+  </div> 
+</body>
+</html>

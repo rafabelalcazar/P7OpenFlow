@@ -1,0 +1,7 @@
+1. Corremos el simple_monitor.py en esta carpeta."cd /ruta donde se tiene el archivo"
+2. Se lanza el simple_monitor.py con el ryu-manager. "ryu-manager simple_monitor.py"
+3. Se corre el archivo app.py. "python3 app.py"
+NOTA: se debe tener instalado flask previamente.
+NOTA: Se debe editar la ruta donde està el info_monitor en el archivo app.py
+4. Abrir en el navegador el localhost en el puerto 5000. "http://localhost:5000/"
+5. Correr la una topologia en mininet y conectarla al controlador remoto simple_monitor.
